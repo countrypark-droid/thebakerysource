@@ -134,7 +134,7 @@ export default function Home() {
           <p>Tell us what you&apos;re looking for and we&apos;ll help you find the right fit for your store, menu, or next event.</p>
           <div className="contact-details">
             <div className="location-line"><MapPin size={18} /><div><span>Headquarters</span><strong>1241 47th Street</strong></div></div>
-            <a className="button button-light" href="mailto:hello@thebakerysource.com">Start a conversation <ArrowUpRight size={17} /></a>
+            <p className="contact-note">Customer service for grocery, catering, and wholesale partners.</p>
           </div>
         </div>
       </section>
