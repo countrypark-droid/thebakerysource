@@ -134,7 +134,10 @@ export default function Home() {
           <p>Tell us what you&apos;re looking for and we&apos;ll help you find the right fit for your store, menu, or next event.</p>
           <div className="contact-details">
             <div className="location-line"><MapPin size={18} /><div><span>Headquarters</span><strong>1241 47th Street</strong></div></div>
-            <p className="contact-note">Customer service for grocery, catering, and wholesale partners.</p>
+            <div className="contact-actions">
+              <a className="contact-link" href="tel:+13475854338"><span>Customer service</span><strong>(347) 585-4338</strong></a>
+              <a className="contact-link" href="mailto:ezralicht@gmail.com"><span>Email</span><strong>ezralicht@gmail.com</strong></a>
+            </div>
           </div>
         </div>
       </section>
