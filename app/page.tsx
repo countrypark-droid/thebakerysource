@@ -145,9 +145,12 @@ export default function Home() {
       <footer className="site-footer">
         <div className="brand brand-footer">
           <span className="brand-mark" aria-hidden="true"><Wheat size={18} strokeWidth={1.8} /></span>
-          <span><strong>The Bakery Source, Inc.</strong><small>Fresh baked goods, thoughtfully delivered.</small><small className="established">Established 2008</small></span>
+          <span><strong>The Bakery Source, Inc.</strong><small>Fresh baked goods, thoughtfully delivered.</small></span>
         </div>
-        <p>© 2026 The Bakery Source, Inc. All rights reserved.</p>
+        <div className="footer-meta">
+          <div className="footer-established"><span>Established</span><strong>2008</strong></div>
+          <p>© The Bakery Source, Inc. All rights reserved.</p>
+        </div>
       </footer>
     </main>
   );
