@@ -15,6 +15,7 @@ button { color: inherit; font: inherit; }
 .brand strong, .brand small { display: block; }
 .brand strong { font-family: Georgia, 'Times New Roman', serif; font-size: 17px; letter-spacing: -.02em; }
 .brand small { color: var(--muted); font-size: 11px; letter-spacing: .09em; margin-top: 3px; text-transform: uppercase; }
+.brand .established { color: var(--rust); font-size: 13px; font-weight: 700; letter-spacing: .08em; margin-top: 8px; text-transform: uppercase; }
 .desktop-nav { display: flex; gap: clamp(20px, 3vw, 42px); }
 .desktop-nav a, .header-link { color: #555148; font-size: 15px; font-weight: 700; letter-spacing: .01em; transition: color .2s ease; }
 .desktop-nav a:hover, .header-link:hover, .text-link:hover { color: var(--rust); }
@@ -86,7 +87,7 @@ h1 em, h2 em { color: var(--rust); font-style: italic; }
 .location-line { align-items: center; display: flex; gap: 12px; margin-bottom: 22px; }
 .location-line div { display: flex; flex-direction: column; gap: 4px; }
 .location-line span { color: #f1d4c2; font-size: 12px; letter-spacing: .11em; text-transform: uppercase; }
-.location-line strong { font-family: Georgia, 'Times New Roman', serif; font-size: 17px; font-weight: 400; }
+.location-line strong { font-family: Georgia, 'Times New Roman', serif; font-size: 19px; font-weight: 400; line-height: 1.35; }
 .contact-actions { border-top: 1px solid rgba(255,248,237,.3); display: grid; gap: 14px; margin-top: 24px; padding-top: 19px; }
 .contact-link { display: flex; flex-direction: column; gap: 4px; width: fit-content; }
 .contact-link span { color: #f1d4c2; font-size: 12px; letter-spacing: .11em; text-transform: uppercase; }
